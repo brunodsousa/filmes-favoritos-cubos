@@ -111,6 +111,7 @@ button a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 100px;
     min-height: 100vh;
     flex: 1 0 auto;
