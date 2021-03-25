@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 4.5em;
+    color: #FF7530;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #FF7530;
+    font-size: 5.5em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.25em;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+th {
+    height: 140px;
+    background-color: #FED480;
+    padding: 30px;
+}
+
+td {
+    padding: 30px;
+}
+
+tr:nth-child(2n) {
+    background-color: #fcfaf8;
+}
+
+table a {
+    text-decoration: none;
+    color: #000000;
+}
+
+table a:hover {
+    color: #FF7530;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 15px;
+
+}
+
+li:first-of-type {
+    margin-left: 0;
+}
+
+button {
+    background-color: #FF7530;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 70px;
+    width: 230px;
+    padding: 5px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
+
+.tabela {
+    overflow-x:scroll;
+}
+
+.preenchimento {
+    flex: 2 0 auto;
+    min-width: 300px;
+}
+
+.titulo-e-tabela {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 100px;
+    min-height: 100vh;
+    flex: 1 0 auto;
+    /* background-color: rgba(254, 212, 128, 50%); */
+}
+
+.titulo {
+    width: 600px;
+}
+
+.sobre-mais-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    flex: 1 0 auto;
+
+}
+
+.filme-estilo {
+    flex: 1 0 auto;
+    min-height: 100vh;
+    padding: 2em;
+}
+
+.sobre-mais-poster p {
+    font-size: 1em;
+    text-align: justify;
+    
+}
+
+.subtitulo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textos {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mais-poster img {
+    height: 500px;
+    width: 345px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sobre-mais-poster img:hover {
+    height: 600px;
+    width: 445px;
+}
+
+.button-trailer {
+    margin-top: auto;
+}
+
+.rodape {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #577F92;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.rodape a {
+    width: 60px; 
+    height: 60px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.rodape img {
+    width: 60px;
+    height: 60px;
+}
+
+#animacao {
+    background-color: #5A8841;
+}
+
+#animacao h2 {
+    color:  #ffffff;
+}
+
+#animacao button {
+    background-color: #D7C9B7;
+}
+
+#comedia {
+    background-color: #a56c4a;
+}
+
+#comedia h2 {
+    color: #ffffff;
+}
+
+#comedia button {
+    background-color: #148080;
+}
+
+#fantasia {
+    background-color: #577F92;;
+}
+
+#fantasia h2 {
+    color: #FFFFFF;
+}
+
+#fantasia button {
+    background-color: #ECC95C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
