@@ -111,11 +111,9 @@ button a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-flow: row wrap;
     gap: 100px;
     min-height: 100vh;
     flex: 1 0 auto;
-    /* background-color: rgba(254, 212, 128, 50%); */
 }
 
 .titulo {
